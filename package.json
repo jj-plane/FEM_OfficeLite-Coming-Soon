@@ -23,7 +23,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "gsap": "npm:@gsap/business@^3.7.0",
+    "gsap": "^3.7.0",
     "purecss": "^2.0.6"
   }
 }

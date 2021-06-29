@@ -1,9 +1,5 @@
 import '../styles/homeStyle.scss';
 import { gsap } from "gsap";
-import { GSDevTools } from "gsap/GSDevTools";
-
-
-gsap.registerPlugin(GSDevTools);
 
 document.addEventListener("DOMContentLoaded", function() {
     gsap.set('.heroOutterContentContainer', {autoAlpha: 1}); 
