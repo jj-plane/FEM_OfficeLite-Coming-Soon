@@ -1,0 +1,43 @@
+@use './colors' as color;
+
+.btn{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .85rem 2.75rem;
+    font-weight: 700;
+    font-size: 1.15rem;
+    min-height: 56px;
+    line-height: 1.5;
+    border-radius: 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btnPrimary{
+    background: color.$primaryBlue;
+    color: white;
+    box-shadow: 4px 13px 19px -3px rgba(0,0,0,0.45);
+    transition: background .5s;
+
+    &:hover{
+        background: color.$primaryHover;
+    }
+}
+
+.btnSecondary{
+    background: color.$secondaryBlue;
+    color: color.$primaryBlue;
+    transition: background .5s;
+
+    &:hover{
+        background: color.$secondaryHover;
+    }
+}
+
+.btnWhite{
+    background:white;
+    color:color.$primaryBlue;
+}
